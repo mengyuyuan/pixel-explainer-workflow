@@ -33,6 +33,8 @@ python tools/story.py check projects/my-story --output /path/to/film.mp4
 3. 编辑 `sound-events.json`，每个事件填写 `kind`、`start`、`rmsDBFS`、`pan`、`role`。接触变了就重新对时，避免在每句字幕或每次切镜加音阶。
 4. 重新 prepare、render、check，并正常速度看人物与道具交接、合画面试听。
 
+在生成整片旁白及长时间渲染前，按 [全片重复检查](PROJECT_EXTENSIONS.md#全片重复检查) 审核分镜。动作模板提供可复用能力，不意味着可以把同一组动作循环铺满不同讲解段。
+
 ```bash
 python tools/story.py prepare projects/my-story --voice /path/to/your-narration.wav
 ```
@@ -67,5 +69,7 @@ python tools/story.py render projects/weaving-example
 ```
 
 该例包含完整 230.8 秒、18 镜脚本和 57 个音效事件，画面已同步小人物构图：常态人物约占画高 12%，操作近景约 24%，同时调整持物、站位和接触点。示例题材不覆盖公共规则。原旁白不分发，默认只听到音效；接入另一条旁白必须重新核对时序。
+
+该历史示例后半段仍有织机、同行群像和标尺演示重复的问题，尚未按新增的全片重复规则返修。可用它研究工程和交互实现，不能把它的镜头安排视为叙事验收标准；新项目须重新设计各解释段的事件与结果。
 
 技术检查、正常速度观影和主观听审分别记录。公开模板能复用实际渲染与表演能力，不保证任意选题只改几个配置就达到相同叙事质量。
