@@ -36,19 +36,21 @@ function moveActor(row,x0,x1,y,h,t,start,end,after='idle',flip=false,carrying=fa
  return perform(row,x,y,h,t,u>0&&u<1?(carrying?'carryWalk':'walk'):after,{flip,distance:x-x0});
 }
 function heldCloth(a,width=60){
+ width=Math.min(width,a.scale*28);
  const cx=(a.left[0]+a.right[0])/2,cy=(a.left[1]+a.right[1])/2;
  const height=Math.max(7,Math.round(width*.25)),top=cy-height+2;
  rect(cx-width/2-1,top-1,width+2,height+2,'#766748');rect(cx-width/2,top,width,height,'#d6c29a');
  for(let i=0;i<width;i+=6)rect(cx-width/2+i,top+1,2,height-2,'#b8a478');stroke(cx-width/2,top+height*.5,cx+width/2,top+height*.5,'#eee0ba',1);a.hands();
 }
 function heldPaper(a,priceText=''){
- const [x,y]=a.right;rect(x-12,y-2,29,34,'#8a795b');rect(x-10,y-3,27,31,C.ivory);
- if(priceText)text(priceText,x+4,y+11,17,C.red);else for(let i=0;i<3;i++)rect(x-5,y+4+i*6,16,2,C.muted);a.hands();
+ const [x,y]=a.right,w=24*a.scale,h=18*a.scale,left=x-w*.6,top=y-h*.65;
+ rect(left-1,top-1,w+2,h+2,'#8a795b');rect(left,top,w,h,C.ivory);
+ if(priceText)text(priceText,left+w/2,top+h/2,12*a.scale,C.red);else for(let i=0;i<3;i++)rect(left+4*a.scale,top+(4+i*4)*a.scale,15*a.scale,a.scale,C.muted);a.hands();
 }
 function operatedLoom(row,x,y,w,t,progress=.7,working=true,options={}){
  const clockT=t*(options.rate||1),isPowered=!!options.powered;
  if(isPowered)powered(x,y,w,clockT,progress,working);else loom(x,y,w,clockT,progress,working);
- const h=options.height||128,px=x-w*.43-h*.17;
+ const h=options.height||64,px=x-w*.43-h*.17;
  const a=perform(row,px,y+3,h,clockT,working?'work':(options.rest||'carry'),{phase:options.phase||0,rate:options.cycle||1.45});
  if(working){const hand=a.right,hy=y-w*.21;stroke(x-w*.20,hy,hand[0],hand[1],'#493723',6);stroke(x-w*.20,hy,hand[0],hand[1],'#ba8f50',2);rect(hand[0]-4,hand[1]-4,8,8,'#705133');a.hands()}
  else if((options.rest||'carry')==='carry')heldCloth(a,w*.24);
