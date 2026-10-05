@@ -1,8 +1,8 @@
-# Pixel Explainer Workflow · 像素科普制作实录
+# Pixel Explainer Workflow · 像素科普动画制作
 
-**完整技能入口：[SKILL.md](SKILL.md)** · **[上游原版](upstream/claude-video-studio/SKILL.md)** · **[项目扩展与待精修项](docs/PROJECT_EXTENSIONS.md)**
+**[制作规则与技能入口](SKILL.md)** · **[动作、声音和检查细则](docs/PROJECT_EXTENSIONS.md)** · **[完整上游技能](upstream/claude-video-studio/SKILL.md)**
 
-本仓库已完整接入 `claude-video-studio` 的固定版本：技能正文、全部脚本、参考文档、依赖清单、示例和 MIT 许可均按上游原件保留。源版本与逐文件摘要见 [锁定清单](upstream/claude-video-studio.lock.json)，可用 `python tools/verify_upstream.py` 核对。后续精修以完整上游为基础；下方电梯样例不代表已经落实了全部上游要求。
+制作时按规则准备主角的 15–25 种姿势，完成走路、转身、操作、交接和反应；道具绑定接触点，8-bit 音效按动作区分音色与节奏。先生成旁白再对齐时间轴，默认 GPU 优先，导出后检查实际动作和混音。
 
 把一段知识讲解做成像素动画：角色逐帧动作、关系示意、字幕、8-bit 音效、可选本地配音，再用 HyperFrames 导出视频。
 
@@ -12,7 +12,7 @@
 
 **[播放／下载 25 秒演示](demo/elevator-sfx-demo.mp4)** · 1920×1080 · 30 fps · 只有音效，无旁白
 
-## 这次实际做了什么
+## 电梯演示内容
 
 - 用同一套像素对象演示轿厢与配重的反向运动、重量配对和电机的作用。
 - 把竖屏草稿重新排成 16:9，大厅、井道、比较区都有横向布局。
