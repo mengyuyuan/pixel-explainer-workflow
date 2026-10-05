@@ -1,0 +1,572 @@
+[
+  {
+    "kind": "discovery",
+    "start": 0.4,
+    "end": 0.79,
+    "rmsDBFS": -22,
+    "pan": -0.15,
+    "role": "idea bulb: the only opening arpeggio",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "cloth",
+    "start": 2.04,
+    "end": 2.4,
+    "rmsDBFS": -28,
+    "pan": 0,
+    "role": "cloth introduction",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 2.375,
+    "end": 2.45,
+    "rmsDBFS": -23,
+    "pan": -0.4,
+    "role": "first loom: hand pulls lever",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 3.064,
+    "end": 3.139,
+    "rmsDBFS": -25,
+    "pan": -0.4,
+    "role": "second contact, quieter",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "tick",
+    "start": 4.38,
+    "end": 4.406,
+    "rmsDBFS": -25,
+    "pan": 0.4,
+    "role": "four-hour clock",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "flip",
+    "start": 5.96,
+    "end": 6.15,
+    "rmsDBFS": -21.5,
+    "pan": 0.32,
+    "role": "actual price tag flip and landing",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 11.1,
+    "end": 11.165,
+    "rmsDBFS": -25,
+    "pan": 0,
+    "role": "customer departs after inspection/refusal/turn",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 11.72,
+    "end": 11.785,
+    "rmsDBFS": -27,
+    "pan": 0.2,
+    "role": "footfall recedes",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "fail",
+    "start": 11.55,
+    "end": 11.87,
+    "rmsDBFS": -23,
+    "pan": -0.4,
+    "role": "seller disappointed, one descending sweep",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "rewind",
+    "start": 12.95,
+    "end": 13.24,
+    "rmsDBFS": -24,
+    "pan": 0,
+    "role": "calendar flashback",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 16.91,
+    "end": 16.975,
+    "rmsDBFS": -27,
+    "pan": -0.4,
+    "role": "Cheng steps out",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 18.39,
+    "end": 18.455,
+    "rmsDBFS": -27,
+    "pan": 0.4,
+    "role": "Ming steps out",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 19.513,
+    "end": 19.588,
+    "rmsDBFS": -24,
+    "pan": -0.35,
+    "role": "matched old-tool pull contact",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "cloth",
+    "start": 21.79,
+    "end": 22.15,
+    "rmsDBFS": -27,
+    "pan": 0,
+    "role": "two fabrics unfold",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "confirm",
+    "start": 22.71,
+    "end": 22.93,
+    "rmsDBFS": -25,
+    "pan": 0,
+    "role": "equal cloths aligned",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 28.273,
+    "end": 28.348,
+    "rmsDBFS": -23,
+    "pan": 0.25,
+    "role": "weaving push contact",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 29.307,
+    "end": 29.382,
+    "rmsDBFS": -26,
+    "pan": 0.25,
+    "role": "later pull contact",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "tick",
+    "start": 29.48,
+    "end": 29.506,
+    "rmsDBFS": -26,
+    "pan": -0.4,
+    "role": "two-hour count begins",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "cloth",
+    "start": 32.15,
+    "end": 32.51,
+    "rmsDBFS": -25,
+    "pan": 0.2,
+    "role": "finished textile in worker hands",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "cloth",
+    "start": 33.3,
+    "end": 33.66,
+    "rmsDBFS": -27,
+    "pan": 0,
+    "role": "customer lifts folded sample",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 40.306,
+    "end": 40.381,
+    "rmsDBFS": -27,
+    "pan": -0.1,
+    "role": "SH04 slowed weaving",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "tick",
+    "start": 43.996,
+    "end": 44.022,
+    "rmsDBFS": -25,
+    "pan": 0.4,
+    "role": "SH04 four hours finish",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "flip",
+    "start": 44.5495,
+    "end": 44.7395,
+    "rmsDBFS": -22,
+    "pan": 0.35,
+    "role": "SH04 double asking price",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "cloth",
+    "start": 51.079,
+    "end": 51.439,
+    "rmsDBFS": -25,
+    "pan": 0,
+    "role": "SH05 sample lifted into inspecting hands",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "cloth",
+    "start": 53.961,
+    "end": 54.321,
+    "rmsDBFS": -28,
+    "pan": -0.2,
+    "role": "SH05 sample released onto low bench",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 55.795,
+    "end": 55.86,
+    "rmsDBFS": -25,
+    "pan": 0,
+    "role": "SH05 customer walks away after refusal",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 57.498,
+    "end": 57.563,
+    "rmsDBFS": -28,
+    "pan": 0.25,
+    "role": "SH05 approaches second stall",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "ruler",
+    "start": 66.7023,
+    "end": 66.9423,
+    "rmsDBFS": -25,
+    "pan": 0,
+    "role": "SH06 public scale is introduced",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "tick",
+    "start": 77.344,
+    "end": 77.37,
+    "rmsDBFS": -27,
+    "pan": -0.2,
+    "role": "SH07 individual clock rejected",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "gear",
+    "start": 89.007,
+    "end": 89.127,
+    "rmsDBFS": -26,
+    "pan": -0.2,
+    "role": "SH08 gear lifted",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "gear",
+    "start": 91.836,
+    "end": 91.956,
+    "rmsDBFS": -22,
+    "pan": 0.1,
+    "role": "SH08 gear seated on machine",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "upgrade",
+    "start": 93.189,
+    "end": 93.549,
+    "rmsDBFS": -24,
+    "pan": 0.2,
+    "role": "SH08 installed transmission starts",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 95.034,
+    "end": 95.109,
+    "rmsDBFS": -26,
+    "pan": 0.4,
+    "role": "SH08 new shuttle contact",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "gear",
+    "start": 101.1893,
+    "end": 101.3093,
+    "rmsDBFS": -25,
+    "pan": -0.3,
+    "role": "SH09 gear catches",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 103.6627,
+    "end": 103.7377,
+    "rmsDBFS": -27,
+    "pan": 0.2,
+    "role": "SH09 transmission body",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 106.136,
+    "end": 106.211,
+    "rmsDBFS": -29,
+    "pan": 0.2,
+    "role": "SH09 tail recedes into voice",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "cloth",
+    "start": 114.2393,
+    "end": 114.5993,
+    "rmsDBFS": -28,
+    "pan": -0.6,
+    "role": "SH10 extra output compared with old machines",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "gear",
+    "start": 128.2933,
+    "end": 128.4133,
+    "rmsDBFS": -25,
+    "pan": -0.5,
+    "role": "SH11 first neighbour upgrades",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "gear",
+    "start": 131.4133,
+    "end": 131.5333,
+    "rmsDBFS": -27,
+    "pan": 0.35,
+    "role": "SH11 later neighbour upgrades",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "ruler",
+    "start": 136.0283,
+    "end": 136.2683,
+    "rmsDBFS": -22,
+    "pan": 0,
+    "role": "SH11 public scale contracts",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "loom",
+    "start": 140.244,
+    "end": 140.319,
+    "rmsDBFS": -27,
+    "pan": -0.4,
+    "role": "SH12 honest old-speed work",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "ruler",
+    "start": 146.3227,
+    "end": 146.5627,
+    "rmsDBFS": -25,
+    "pan": 0,
+    "role": "SH12 new social standard",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "cloth",
+    "start": 155.4793,
+    "end": 155.8393,
+    "rmsDBFS": -27,
+    "pan": 0.4,
+    "role": "SH13 second cloth separates",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "tick",
+    "start": 158.9287,
+    "end": 158.9547,
+    "rmsDBFS": -27,
+    "pan": 0,
+    "role": "SH13 labour scale divides",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "stitch",
+    "start": 166.9387,
+    "end": 166.9757,
+    "rmsDBFS": -28,
+    "pan": 0.4,
+    "role": "SH14 needle contact",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "stitch",
+    "start": 168.3947,
+    "end": 168.4317,
+    "rmsDBFS": -30,
+    "pan": 0.4,
+    "role": "SH14 second smaller stitch",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "stitch",
+    "start": 169.972,
+    "end": 170.009,
+    "rmsDBFS": -29,
+    "pan": 0.4,
+    "role": "SH14 last visible stitch",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 179.7147,
+    "end": 179.7797,
+    "rmsDBFS": -28,
+    "pan": 0.55,
+    "role": "SH15 crowd arrives",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "flip",
+    "start": 180.9207,
+    "end": 181.1107,
+    "rmsDBFS": -22,
+    "pan": -0.3,
+    "role": "SH15 price tag changes",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "paper",
+    "start": 191.156,
+    "end": 191.306,
+    "rmsDBFS": -25,
+    "pan": -0.3,
+    "role": "SH16 price tag held and lowered",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 194.866,
+    "end": 194.931,
+    "rmsDBFS": -26,
+    "pan": 0,
+    "role": "SH16 walk with paper to neighbouring workshop",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 197.9577,
+    "end": 198.0227,
+    "rmsDBFS": -28,
+    "pan": 0.3,
+    "role": "SH16 last step before stopping",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "ruler",
+    "start": 216.0317,
+    "end": 216.2717,
+    "rmsDBFS": -24,
+    "pan": 0,
+    "role": "SH17 last contraction of social scale",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 218.879,
+    "end": 218.944,
+    "rmsDBFS": -27,
+    "pan": -0.4,
+    "role": "SH18 approach factory",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "step",
+    "start": 220.582,
+    "end": 220.647,
+    "rmsDBFS": -29,
+    "pan": -0.1,
+    "role": "SH18 stop at factory",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "paper",
+    "start": 224.5775,
+    "end": 224.7275,
+    "rmsDBFS": -24,
+    "pan": 0,
+    "role": "SH18 employment notice",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  },
+  {
+    "kind": "outro",
+    "start": 228.18,
+    "end": 228.69,
+    "rmsDBFS": -24,
+    "pan": 0,
+    "role": "SH18 one final three-note question motif",
+    "source": "Original pulse/triangle/quantized-noise synthesis",
+    "listening": "unverified"
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {"kind":"loom","start":0.345,"rmsDBFS":-23,"pan":-0.3,"role":"first pull contact"},
+  {"kind":"loom","start":1.38,"rmsDBFS":-26,"pan":-0.3,"role":"later push contact"},
+  {"kind":"cloth","start":4.5,"rmsDBFS":-25,"role":"finished cloth held"},
+  {"kind":"step","start":6.6,"rmsDBFS":-25,"pan":-0.4,"role":"walk with object"},
+  {"kind":"step","start":7.8,"rmsDBFS":-27,"role":"approach"},
+  {"kind":"cloth","start":12.5,"rmsDBFS":-25,"role":"inspect sample"},
+  {"kind":"cloth","start":15,"rmsDBFS":-27,"role":"place on bench"},
+  {"kind":"gear","start":20.8,"rmsDBFS":-22,"role":"seat gear"},
+  {"kind":"upgrade","start":22,"rmsDBFS":-25,"role":"start installed transmission"},
+  {"kind":"step","start":25.6,"rmsDBFS":-26,"pan":0.5,"role":"first visitor arrives"},
+  {"kind":"step","start":26.7,"rmsDBFS":-28,"pan":0.3,"role":"next visitor arrives"}
+]

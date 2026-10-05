@@ -1,0 +1,31 @@
+{
+  "assets": [
+    {
+      "file": "assets/cheng-acting.png",
+      "sha256": "d738860c697d424f82ec2f549f8f6b77738a8916e1f15b0e2745330e18f16b89",
+      "origin": "Original AI-generated pixel artwork created for this project; generated with built-in imagegen",
+      "license": "MIT, to the extent of rights held by the contributor"
+    },
+    {
+      "file": "assets/customer-acting.png",
+      "sha256": "7a905d5a0a5d906dd70159274330d9df18d02b75c38c5f5c048024ce3e5f74ad",
+      "origin": "Original AI-generated pixel artwork created for this project; generated with built-in imagegen",
+      "license": "MIT, to the extent of rights held by the contributor"
+    },
+    {
+      "file": "assets/ming-acting.png",
+      "sha256": "6205e3f82e09ae2688b0c217c091aadee30aca0541768e6019267589e9c782f1",
+      "origin": "Original AI-generated pixel artwork created for this project; generated with built-in imagegen",
+      "license": "MIT, to the extent of rights held by the contributor"
+    },
+    {
+      "file": "assets/props.png",
+      "sha256": "f4d067b22c60c570c7fdd8469bcb3c688aa869486e64c091975929bf19da8472",
+      "origin": "Original AI-generated pixel artwork created for this project; generated with built-in imagegen",
+      "license": "MIT, to the extent of rights held by the contributor"
+    }
+  ],
+  "poseCountPerCharacter": 20,
+  "knownLimitation": "Walk A/B contact drawings are similar; refine stride for demanding scenes.",
+  "reference": "No reference-video frames, narration, model weights or private connection settings included."
+}

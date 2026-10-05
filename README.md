@@ -2,11 +2,30 @@
 
 **[制作规则与技能入口](SKILL.md)** · **[动作、声音和检查细则](docs/PROJECT_EXTENSIONS.md)** · **[完整上游技能](upstream/claude-video-studio/SKILL.md)**
 
+## 新版：可复用的人物故事模板
+
+[模板使用说明](docs/STORY_TEMPLATE.md) · 三个人物各 20 姿势、手部持物、四相位走路、推拉操作、15 类 8-bit 音色、可选自带旁白。默认示范人物约占画面高的 12%，关键操作才放大。还提供本次完整织布故事的场景代码作为可选示例。
+
+![新版动作模板：小人物比例](demo/acting-template.jpg)
+
+[播放／下载 32 秒动作示范（纯音效）](demo/acting-template.mp4)
+
+安装下方依赖后，在仓库目录运行：
+
+```bash
+python tools/story.py init projects/my-story
+python tools/story.py prepare projects/my-story
+python tools/story.py render projects/my-story
+python tools/story.py check projects/my-story
+```
+
+输出 `projects/my-story/renders/film.mp4`。默认是 32 秒动作示范、只有音效；真实影片时长由使用者在项目中设定。更换知识点需要改脚本、场景、字幕与接触音时间，不是只换标题就自动生成故事。完整示例使用 `init projects/example --example capital`，不附私人配音。
+
 制作时按规则准备主角的 15–25 种姿势，完成走路、转身、操作、交接和反应；道具绑定接触点，8-bit 音效按动作区分音色与节奏。先生成旁白再对齐时间轴，默认 GPU 优先，导出后检查实际动作和混音。
 
 把一段知识讲解做成像素动画：角色逐帧动作、关系示意、字幕、8-bit 音效、可选本地配音，再用 HyperFrames 导出视频。
 
-这里公开制作方法和一个能运行的电梯科普样例。当前是针对单个主题编排的工程：更换知识点仍要设计场景、动作和时间轴。没有自动选题或一键生成任意故事的功能。
+这里公开制作方法、通用人物动作模板、完整织布故事场景及早期电梯样例。以下电梯示例保留其原实现；新版人物模板通过上面的独立入口使用。更换知识点仍要设计场景、动作和时间轴，没有自动选题或一键生成任意故事的功能。
 
 ![电梯样片画面](demo/contact-sheet.png)
 

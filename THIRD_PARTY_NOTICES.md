@@ -1,5 +1,9 @@
 # 第三方来源与媒体许可
 
+## 新版人物故事模板资产
+
+`templates/pixel-story/assets/*.png` 为本项目通过内置图像生成工具创建的原创角色和道具图集；贡献者在其拥有权利的范围内按根目录 MIT 许可提供。文件 SHA256 与已知步态限制记录在同目录上级 `ASSETS.json`。生成提示词随模板提供。模板及 `examples/capital-story` 不包含参考抖音视频的角色、画面或音轨；不分发私人参考声、旁白文件和模型权重。可选故事的概念参考为《资本论》第一卷第一章、第三章，脚本不是原文复制。
+
 ## 完整 Claude Video Studio 技能
 
 - 上游：[a252937166/claude-video-studio](https://github.com/a252937166/claude-video-studio)

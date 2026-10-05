@@ -1,0 +1,20 @@
+[
+  {
+    "key": "worker",
+    "file": "assets/cheng-acting.png",
+    "columns": 5,
+    "rows": 4
+  },
+  {
+    "key": "partner",
+    "file": "assets/ming-acting.png",
+    "columns": 5,
+    "rows": 4
+  },
+  {
+    "key": "visitor",
+    "file": "assets/customer-acting.png",
+    "columns": 5,
+    "rows": 4
+  }
+]

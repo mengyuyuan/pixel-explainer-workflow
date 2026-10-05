@@ -1,0 +1,14 @@
+{
+  "title": "把动作连成故事",
+  "series": "像素故事 · 动作模板",
+  "subtitle": "换题材，复用表演与声音",
+  "width": 1920, "height": 1080, "fps": 30, "duration": 32,
+  "voiceGainDB": 0, "effectsGainDB": 0,
+  "cues": [
+    {"start":0,"end":5.8,"text":"先操作，再拿起成品"},
+    {"start":6,"end":11.8,"text":"拿稳物件，走到对方面前，停步"},
+    {"start":12,"end":17.8,"text":"接过、检查、放下，再作出反应"},
+    {"start":18,"end":24.8,"text":"接触点看不清时，再切入操作近景"},
+    {"start":25,"end":31.8,"text":"留出行动空间；动作结束后自然停住"}
+  ]
+}
