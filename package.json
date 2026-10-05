@@ -1,0 +1,20 @@
+{
+  "name": "pixel-explainer-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A reproducible pixel explainer workflow with a 25-second elevator example",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "preview": "hyperframes preview --no-open",
+    "lint": "hyperframes lint",
+    "render": "hyperframes render --gpu --fps 30 --quality draft --crf 18 --workers 2 --output renders/elevator-sample.mp4"
+  },
+  "dependencies": {
+    "gsap": "3.15.0",
+    "hyperframes": "0.8.127",
+    "playwright": "1.63.0"
+  }
+}
