@@ -5,3 +5,4 @@
 *.md text eol=lf
 *.mp4 binary
 *.png binary
+/upstream/claude-video-studio/** -text

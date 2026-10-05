@@ -1,5 +1,9 @@
 # Pixel Explainer Workflow · 像素科普制作实录
 
+**完整技能入口：[SKILL.md](SKILL.md)** · **[上游原版](upstream/claude-video-studio/SKILL.md)** · **[项目扩展与待精修项](docs/PROJECT_EXTENSIONS.md)**
+
+本仓库已完整接入 `claude-video-studio` 的固定版本：技能正文、全部脚本、参考文档、依赖清单、示例和 MIT 许可均按上游原件保留。源版本与逐文件摘要见 [锁定清单](upstream/claude-video-studio.lock.json)，可用 `python tools/verify_upstream.py` 核对。后续精修以完整上游为基础；下方电梯样例不代表已经落实了全部上游要求。
+
 把一段知识讲解做成像素动画：角色逐帧动作、关系示意、字幕、8-bit 音效、可选本地配音，再用 HyperFrames 导出视频。
 
 这里公开制作方法和一个能运行的电梯科普样例。当前是针对单个主题编排的工程：更换知识点仍要设计场景、动作和时间轴。没有自动选题或一键生成任意故事的功能。

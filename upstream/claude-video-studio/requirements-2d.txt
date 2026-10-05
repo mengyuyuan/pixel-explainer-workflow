@@ -1,0 +1,4 @@
+# 2D motion-transfer scripts: make_green, key_diff, standin_from_driver (~150 MB)
+numpy
+scipy
+pillow

@@ -1,5 +1,13 @@
 # 第三方来源与媒体许可
 
+## 完整 Claude Video Studio 技能
+
+- 上游：[a252937166/claude-video-studio](https://github.com/a252937166/claude-video-studio)
+- 固定提交：`d0c9fc5922a5ac8e2b9f274f01284faf6c165868`。
+- 本地路径：`upstream/claude-video-studio/`，完整保留该提交下所有 Git 跟踪文件、相对目录结构、文件内容及可执行标记；不是只摘取 `pixel_sprite.py`。
+- 上游 MIT 许可和原作者署名完整保留于 [`upstream/claude-video-studio/LICENSE`](upstream/claude-video-studio/LICENSE)。该目录内未作本地改写；项目扩展保存在其外。
+- 逐文件哈希及来源树标识见 [`upstream/claude-video-studio.lock.json`](upstream/claude-video-studio.lock.json)。导入完整性与所有可选工作流是否在当前机器运行是两件事。
+
 ## 精灵绘制工具
 
 - 项目：[a252937166/claude-video-studio](https://github.com/a252937166/claude-video-studio)

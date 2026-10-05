@@ -1,0 +1,5 @@
+# Face checks: lip_sync_check, recolor_iris. They use MediaPipe's legacy FaceMesh API (mp.solutions),
+# tested with mediapipe 0.10.14 on Python 3.9-3.12; mediapipe 1.x is untested, so stay pinned.
+# Pulls OpenCV + jax: about 600 MB in total.
+-r requirements-2d.txt
+mediapipe==0.10.14

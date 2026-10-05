@@ -1,0 +1,34 @@
+# transcribe_zh.py: local Chinese ASR (FunASR Paraformer + Fun-ASR-Nano). torch + funasr + modelscope: ~1 GB installed,
+# plus ~1-3 GB of models downloaded from ModelScope on first use. Python 3.10-3.12.
+# funasr is installed without its pinned deps (they pull a very old transformers that needs a Rust build); its runtime
+# deps are listed explicitly instead. Install with:  python3 -m pip install -r requirements-asr.txt
+torch
+torchaudio
+funasr --no-deps
+modelscope
+numpy
+scipy
+soundfile
+librosa
+kaldiio
+jieba
+sentencepiece
+pyyaml
+hydra-core
+omegaconf
+tqdm
+requests
+editdistance
+jaconv
+jamo
+torch-complex
+tensorboardX
+oss2
+addict
+rapidfuzz
+einops
+regex
+tiktoken
+pytorch_wpe
+transformers>=4.51
+accelerate

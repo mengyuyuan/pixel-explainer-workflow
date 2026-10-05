@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/a252937166/claude-video-studio",
+  "commit": "d0c9fc5922a5ac8e2b9f274f01284faf6c165868",
+  "tree": "a5649e98bc8200678cbdb0dc4aaef3b34c1184d9",
+  "destination": "upstream/claude-video-studio",
+  "importDate": "2026-10-05",
+  "scope": "Every tracked file from the pinned commit, byte-for-byte; no Git history or local untracked files",
+  "localModifications": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "git_blob_sha": "c18dd8d83ceed1806b50b0aaa46beb7e335fff13",
+      "bytes": 13,
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "git_blob_sha": "8ce98bed33cffad5ffad0d7390920f3015251163",
+      "bytes": 1089,
+      "sha256": "8f1052261bdf92643723c86fa2380d60393663c385e82f9bff9b87d10f91602a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "git_blob_sha": "4f2462ce44f990b7ba6b3803d23817a4d6e81684",
+      "bytes": 7926,
+      "sha256": "e993a7ce75fc8cab7efeb37abba54cea7583d420117c4b1ee85b439333a33cf5"
+    },
+    {
+      "path": "SKILL.md",
+      "mode": "100644",
+      "git_blob_sha": "09a739acf2cb9bbc6b99ac32fd4945900c5d8f65",
+      "bytes": 17698,
+      "sha256": "b2f4efc0762914a3861f71e8e07875a832e4f4737b0052986c93611d71819611"
+    },
+    {
+      "path": "examples/lyrics-example.txt",
+      "mode": "100644",
+      "git_blob_sha": "81ca0750546e68a512d62c0d58894bac5ee87b0f",
+      "bytes": 490,
+      "sha256": "524c4a3faa78b6897c765a5129169a0082d74619644ae237fc88fb638a4100f4"
+    },
+    {
+      "path": "references/2d-motion-transfer.md",
+      "mode": "100644",
+      "git_blob_sha": "cea68f01a969528ae5df64fc3141512a7e764d22",
+      "bytes": 7755,
+      "sha256": "36464643f2236c654d79e7c3306ad6ca16ea71c1ec66fcd5c6584af716edc4ef"
+    },
+    {
+      "path": "references/2d-rig-lessons.md",
+      "mode": "100644",
+      "git_blob_sha": "d3a17d6072ad6d11ea31b66f717ff3716b473b5c",
+      "bytes": 2807,
+      "sha256": "fd5488ae41facb630f89a28f84eb3149c27e5828b42c45b34652c8c1160fb35b"
+    },
+    {
+      "path": "references/3d-lessons.md",
+      "mode": "100644",
+      "git_blob_sha": "e5d99f9d64dd0ecd6ce44b53ba97a3c43a78c6c8",
+      "bytes": 7884,
+      "sha256": "ae19090a29faaf44556964d7c1c17acc2980e0db03b7862aa0db9ace89be7a04"
+    },
+    {
+      "path": "references/ai-editing.md",
+      "mode": "100644",
+      "git_blob_sha": "c3ff4ec0889507a6c8e442d797cf3230a2da6092",
+      "bytes": 16641,
+      "sha256": "e925ed83165fd8fb42d42ab3727db69fd02839696b5fb84d0c3e45506a7bce9d"
+    },
+    {
+      "path": "references/hyperframes-gotchas.md",
+      "mode": "100644",
+      "git_blob_sha": "3a494ad0c9c5ade737d152958fa33126c21576bd",
+      "bytes": 4327,
+      "sha256": "5c4a989e7c9749c86f373f4be5c79845b2f6b7bf3370b077e80690d4bb4f0fd8"
+    },
+    {
+      "path": "references/qa-checklist.md",
+      "mode": "100644",
+      "git_blob_sha": "12766e698275bc4b2645897264ec55fd45f1ad83",
+      "bytes": 3070,
+      "sha256": "ed813db67ba05705057aa2c886c08e200885786ba17f00e265d461b1cbe4705c"
+    },
+    {
+      "path": "requirements-2d.txt",
+      "mode": "100644",
+      "git_blob_sha": "832222b7c682c2f89dbeef2c4b39e12ad72acdd8",
+      "bytes": 101,
+      "sha256": "cb2aaa9960976b797e3694a46d698504455fc9eba2469ad990a0822316b4d878"
+    },
+    {
+      "path": "requirements-asr.txt",
+      "mode": "100644",
+      "git_blob_sha": "3c127b5f387a1cf0c6ce659d14197b0fe04e5b50",
+      "bytes": 706,
+      "sha256": "b62513cd440c8ddc1bd7febc2e0f19818ebe9594e4eda9c124805a7d18cd0f45"
+    },
+    {
+      "path": "requirements-edit.txt",
+      "mode": "100644",
+      "git_blob_sha": "b45f46f59795a6015f2eb759029f4f714f73fc16",
+      "bytes": 254,
+      "sha256": "94d7486a64fb7dfaad288ca47c21f0dab066672359862c4514e04c4ee81f531a"
+    },
+    {
+      "path": "requirements-face.txt",
+      "mode": "100644",
+      "git_blob_sha": "fe8be093f417ca69034d3bbe9eaaaae7f79d4f87",
+      "bytes": 284,
+      "sha256": "60bf034eff47ef1f2effd88f1cc218b1454bb6cd464c5c7b01c2f2ea373c9f79"
+    },
+    {
+      "path": "scripts/add_cover.sh",
+      "mode": "100755",
+      "git_blob_sha": "6c1a487c51d7be7a2eaeb0bef0da449c4b355dbe",
+      "bytes": 2184,
+      "sha256": "0ad9c7e2de26b8661bc6546abb4cc1b6f9b66022c656dde37fc4792cd3f74237"
+    },
+    {
+      "path": "scripts/align_beats.py",
+      "mode": "100755",
+      "git_blob_sha": "3e34bd8af5baeff6b073470baa6e7113c08b5344",
+      "bytes": 2808,
+      "sha256": "5036cb1188df8f619fab22fc95aebc538fc207d524ca9ea558a0397d1f98b013"
+    },
+    {
+      "path": "scripts/auto_reframe.py",
+      "mode": "100755",
+      "git_blob_sha": "dd102a770e1f60970909cf7390ba91020b76c889",
+      "bytes": 7584,
+      "sha256": "41fefcd6cb1746b61ffba8651ba42f893ec38a82288e4cb3348096f4cfcaa7b2"
+    },
+    {
+      "path": "scripts/before_after.py",
+      "mode": "100755",
+      "git_blob_sha": "6348a747eb81b1e26926687e622baa96e1f4daff",
+      "bytes": 5994,
+      "sha256": "16c9407a5fc3fb69218e2eb98c4b73098aba33f9d168a323e80b241455c6497e"
+    },
+    {
+      "path": "scripts/check_env.py",
+      "mode": "100644",
+      "git_blob_sha": "1808ec968df73f58afda672e54ca5f5f68ec1202",
+      "bytes": 7197,
+      "sha256": "9f8bd5ff64c90a67b6ee6c09dbc731dc947a8972099efe90dfb2141586e0a7f2"
+    },
+    {
+      "path": "scripts/clone_squad.py",
+      "mode": "100755",
+      "git_blob_sha": "352c43cd8b2376c2ef2dd992a6109196df13fa36",
+      "bytes": 9924,
+      "sha256": "6ae99da33056092ebf68f70a6e1b719526603c02d5952d2cb6973db2cd104970"
+    },
+    {
+      "path": "scripts/dewatermark.py",
+      "mode": "100644",
+      "git_blob_sha": "3661f258f1517cf9b2e6ed2f9a35c876b1236106",
+      "bytes": 4781,
+      "sha256": "bb2300c780607173f3c4ec468d9789c86e93003b18e35be75694c761c3e77431"
+    },
+    {
+      "path": "scripts/echo_trail.py",
+      "mode": "100644",
+      "git_blob_sha": "397ae31861784640b652c38c8c43f919319f5df5",
+      "bytes": 9042,
+      "sha256": "0aed7e591b988b38535f9761776082ac4879033a618f8d121467af3ebb294866"
+    },
+    {
+      "path": "scripts/face_mosaic.py",
+      "mode": "100644",
+      "git_blob_sha": "26e22ede1373e7f2c16e4511e4711fa52b7cd0a1",
+      "bytes": 9197,
+      "sha256": "c0a5d2d6fe93f5ee179346be3ffb1665f91518f951b05524c33f0136a33d391a"
+    },
+    {
+      "path": "scripts/freeze_intro.py",
+      "mode": "100644",
+      "git_blob_sha": "6156718a311c7b1fdad82114450e2eff1af03ce5",
+      "bytes": 18810,
+      "sha256": "d6b449ade6edaf3662d18404379924cbf0e26a14a34db4ffd4a13673e2ab3870"
+    },
+    {
+      "path": "scripts/key_diff.py",
+      "mode": "100644",
+      "git_blob_sha": "ba1307756f082e1a3106a0e2e5aa0042049075a2",
+      "bytes": 4364,
+      "sha256": "af509db518e9926eb03613d73896254d062603ee9910887e741867c7838b97b7"
+    },
+    {
+      "path": "scripts/lip_sync_check.py",
+      "mode": "100644",
+      "git_blob_sha": "70cfa1a3db3c802a33dcc5fcba7084b5036f8ced",
+      "bytes": 5986,
+      "sha256": "6d0f79d211b1e93168b08661be47b3aa13222040b9360288e80b6ee66a34a241"
+    },
+    {
+      "path": "scripts/make_green.py",
+      "mode": "100644",
+      "git_blob_sha": "154a3784ef1d5a4ade8c4fbbd3db7cc072d32566",
+      "bytes": 3697,
+      "sha256": "848fc1e137a7ce31129a0c0230ec8c8001ca56a67ae3f6e0151dea2eb46377be"
+    },
+    {
+      "path": "scripts/person_matte.py",
+      "mode": "100755",
+      "git_blob_sha": "4470e7b045a10cbce7c8fdcb67427734cd7ec31d",
+      "bytes": 7995,
+      "sha256": "e9d11b37302732647a287c827247936cff38a1d7039f7af72c020ef60ae244a5"
+    },
+    {
+      "path": "scripts/pixel_sprite.py",
+      "mode": "100755",
+      "git_blob_sha": "df4e791e3bd0ddec1b1b31dae022023de9ccc54c",
+      "bytes": 4674,
+      "sha256": "ed7577ed4cb0f491a89759d108ef4018e91e330c4a12b0feea40557dde848d83"
+    },
+    {
+      "path": "scripts/pop_out.py",
+      "mode": "100755",
+      "git_blob_sha": "ca5ac63911acef6cfb1af24808465b15826d5d65",
+      "bytes": 7115,
+      "sha256": "584a49deac62c297db482904e24bf766eeb2821febfcb1b9956f5e1885658217"
+    },
+    {
+      "path": "scripts/qa_video.sh",
+      "mode": "100755",
+      "git_blob_sha": "1d50fa2cb5ec1c228a6030eb50acdb814fb1861c",
+      "bytes": 2168,
+      "sha256": "4c15e2c045d3184e83a9f74400e611b6709d16481c9661a666cfd33aa0e4dcd7"
+    },
+    {
+      "path": "scripts/recolor_iris.py",
+      "mode": "100644",
+      "git_blob_sha": "8149fe9eac9741964e01f9af5ca631edad59cc3c",
+      "bytes": 6434,
+      "sha256": "18ae314d9c5dcf069ee978928dc2947dfcf0edb30c6ee5e53f1371b59e3f84cf"
+    },
+    {
+      "path": "scripts/redub.py",
+      "mode": "100755",
+      "git_blob_sha": "9349e3c8364fd6b0c3e186b1b394b2ec3fd1ee47",
+      "bytes": 7578,
+      "sha256": "fa9d17721224697d56c0568d0dad3de4ac41c895a20f238a3a8a0d6863ae95d6"
+    },
+    {
+      "path": "scripts/speed_ramp.py",
+      "mode": "100644",
+      "git_blob_sha": "3c2db46b49c2e9b2c0de0bf2e08dd21182d74515",
+      "bytes": 11262,
+      "sha256": "fd907005cc8fb307a13b33356f8fb8aab1a7ee9f4dd7001f140a0bd271f472c9"
+    },
+    {
+      "path": "scripts/standin_from_driver.py",
+      "mode": "100644",
+      "git_blob_sha": "38d6f66c14ecb155cbdf3b82de2ce4f618933421",
+      "bytes": 2499,
+      "sha256": "2437d85da7294f46d3181afdfe2c8852a894cac002c87a413ed8c0ea36a1b248"
+    },
+    {
+      "path": "scripts/time_freeze.py",
+      "mode": "100644",
+      "git_blob_sha": "7bf4a0933d4e5d8d550e053007ec903228155c21",
+      "bytes": 8790,
+      "sha256": "b2c65cf73cde3fff2a1ede419490c051949376e16100ab9d031a405a5fe3c281"
+    },
+    {
+      "path": "scripts/time_scan.py",
+      "mode": "100755",
+      "git_blob_sha": "c73694d9e523d824173a482ffd046939c7ebce15",
+      "bytes": 6821,
+      "sha256": "d18f4db9782008a0e84f2ef1d031f162be417c46ff72a6fe21775c66b7efc1e8"
+    },
+    {
+      "path": "scripts/timed_lyrics.py",
+      "mode": "100755",
+      "git_blob_sha": "1e13b9ba6dbe430b6434e177e9bb4770617ac0de",
+      "bytes": 3155,
+      "sha256": "7d3df62826b6c009e842699a2e08fef98b3cea0998fc6cbcec3884836e8ea33e"
+    },
+    {
+      "path": "scripts/transcribe_zh.py",
+      "mode": "100644",
+      "git_blob_sha": "42940c334f938e523b74ab0414961f2b9ed127e6",
+      "bytes": 5409,
+      "sha256": "5a34e1de1d375cc2675385a486b3d0cc81784383ec950a6e1bccf275886f51fe"
+    },
+    {
+      "path": "scripts/tutorial_reel.py",
+      "mode": "100755",
+      "git_blob_sha": "41a7701afe5c17682fc30cc6c6392d01a3da265b",
+      "bytes": 14401,
+      "sha256": "f07e7ba900b6bbee6ecb7323a452fcde94e9943af0394a2ca3bc1fbc7f738514"
+    },
+    {
+      "path": "scripts/vision_matte.py",
+      "mode": "100644",
+      "git_blob_sha": "b5b7dd579e1af9b2afc0f9d84f153022219f4f74",
+      "bytes": 4973,
+      "sha256": "66da55e2c71826947d99d869c6c64cf88e0898364bf0aae413aa8eb7a38e0495"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# AI-editing scripts without face/pose models: time_freeze, dewatermark, speed_ramp (~250 MB with OpenCV).
+# opencv-contrib adds the guided filter used for cleaner mask edges (plain opencv-python also works).
+-r requirements-2d.txt
+opencv-contrib-python
