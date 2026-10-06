@@ -28,6 +28,8 @@ python tools/story.py check projects/my-story --output /path/to/film.mp4
 
 ## 换自己的故事
 
+先用 [分镜声画表](SCENE_SCORE_TEMPLATE.md) 确定因果、对象状态、旁白语义落点和音乐结构。下面的命令提供执行能力，不会自动生成合格文案、完整配乐或持续推进的解释动画；新增规则也不意味着历史示例已经返修。
+
 1. 编辑 `project.json` 的主题、系列名、字幕、总时长、画幅、帧率；以实际旁白的句段边界设置 cues。可选示例还有 shots 分镜数据。
 2. 编辑 `scenes.js`，按镜头编排人物目标、接近、接触、操作、释放和反应。默认示例展示工作、持物行走、检查、拒绝、安装和群体到达。
 3. 编辑 `sound-events.json`，每个事件填写 `kind`、`start`、`rmsDBFS`、`pan`、`role`。接触变了就重新对时，避免在每句字幕或每次切镜加音阶。
